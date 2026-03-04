@@ -1,0 +1,64 @@
+{
+  "name": "codehike-without-mdx",
+  "version": "0.1.0",
+  "description": "Fork of Code Hike focused on React + JSX, without MDX pipeline",
+  "keywords": [
+    "react",
+    "jsx",
+    "syntax highlighting",
+    "code blocks",
+    "codehike",
+    "without-mdx"
+  ],
+  "homepage": "https://github.com/Egortex/codehike-without-mdx",
+  "bugs": {
+    "url": "https://github.com/Egortex/codehike-without-mdx/issues"
+  },
+  "author": "Egortex",
+  "type": "module",
+  "sideEffects": false,
+  "license": "MIT",
+  "repository": "Egortex/codehike-without-mdx",
+  "files": [
+    "dist/**"
+  ],
+  "exports": {
+    ".": "./dist/index.js",
+    "./react": "./dist/react.js",
+    "./code": "./dist/code.js",
+    "./utils/token-transitions": "./dist/utils/token-transitions.js",
+    "./utils/static-fallback": "./dist/utils/static-fallback.js",
+    "./utils/selection": "./dist/utils/selection.js"
+  },
+  "types": "index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "dist/*"
+      ]
+    }
+  },
+  "scripts": {
+    "build": "tsc -p . ",
+    "dev": "tsc -p . --watch",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
+    "check-exports": "attw --pack ."
+  },
+  "dependencies": {
+    "@code-hike/lighter": "1.0.1",
+    "diff": "^5.1.0"
+  },
+  "devDependencies": {
+    "@arethetypeswrong/cli": "^0.15.4",
+    "@types/diff": "^5.0.9",
+    "@types/node": "^20.10.6",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "typescript": "^5.3.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
