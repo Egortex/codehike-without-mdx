@@ -1,5 +1,5 @@
 {
-  "name": "codehike-without-mdx",
+  "name": "@chepchik/codehike-without-mdx",
   "version": "0.1.0",
   "description": "Fork of Code Hike focused on React + JSX, without MDX pipeline",
   "keywords": [
@@ -18,7 +18,10 @@
   "type": "module",
   "sideEffects": false,
   "license": "MIT",
-  "repository": "Egortex/codehike-without-mdx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Egortex/codehike-without-mdx.git"
+  },
   "files": [
     "dist/**"
   ],

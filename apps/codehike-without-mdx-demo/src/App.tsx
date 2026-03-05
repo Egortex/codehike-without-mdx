@@ -1,6 +1,9 @@
 import { useMemo, useState } from "react"
-import type { RawCode } from "codehike-without-mdx/code"
-import { ScrollyCoding, ScrollyStep } from "codehike-without-mdx/react"
+import type { RawCode } from "@chepchik/codehike-without-mdx/code"
+import {
+  ScrollyCoding,
+  ScrollyStep,
+} from "@chepchik/codehike-without-mdx/react"
 
 type EditableStep = {
   id: string

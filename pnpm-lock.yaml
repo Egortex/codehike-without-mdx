@@ -56,7 +56,7 @@ importers:
 
   apps/codehike-without-mdx-demo:
     dependencies:
-      codehike-without-mdx:
+      '@chepchik/codehike-without-mdx':
         specifier: workspace:*
         version: link:../../packages/codehike-without-mdx
       react:

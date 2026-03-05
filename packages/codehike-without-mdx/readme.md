@@ -5,24 +5,24 @@ Fork of Code Hike focused on JSX-first usage without MDX plugins.
 ## Install
 
 ```bash
-npm i codehike-without-mdx
+npm i @chepchik/codehike-without-mdx
 ```
 
 ## Usage
 
 ```tsx
-import { ScrollyCoding, ScrollyStep } from "codehike-without-mdx/react"
-import { Pre, highlight } from "codehike-without-mdx/code"
+import { ScrollyCoding, ScrollyStep } from "@chepchik/codehike-without-mdx/react"
+import { Pre, highlight } from "@chepchik/codehike-without-mdx/code"
 ```
 
 ## Included Modules
 
-- `codehike-without-mdx/react`:
+- `@chepchik/codehike-without-mdx/react`:
   - `ScrollyCoding`, `ScrollyStep`
   - `CodeTabs`, `Tab`
   - `FocusCode`, `focus`, `withFocusRanges`
   - `Code`, `useHighlightedCode`
-- `codehike-without-mdx/code`:
+- `@chepchik/codehike-without-mdx/code`:
   - `highlight`, `Pre`, `Inline`
   - low-level `InnerPre`, `InnerLine`, `InnerToken`, `getPreRef`
 - `codehike-without-mdx/utils/*`:

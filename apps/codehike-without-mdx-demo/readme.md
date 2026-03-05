@@ -1,6 +1,6 @@
 # codehike-without-mdx-demo
 
-Minimal app to validate `codehike-without-mdx/react` without MDX.
+Minimal app to validate `@chepchik/codehike-without-mdx/react` without MDX.
 
 ## Run
 
